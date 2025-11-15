@@ -112,7 +112,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Hash Cracker</h1>
+        <h1>Password Bruter</h1>
         <p>Advanced password recovery tool</p>
       </header>
 

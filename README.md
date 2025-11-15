@@ -1,18 +1,45 @@
-# React + Vite
+# PasswordBruter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based password recovery tool that runs directly in the browser.
 
-Currently, two official plugins are available:
+### Target MD5 Hash  
+Input field to specify the hash you want to recover.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Search Parameters  
+**Min Length / Max Length** — controls the range of password lengths to brute-force.  
+**Character Sets:**  
+- Numbers  
+- Lowercase  
+- Uppercase  
+- Special Characters  
 
-## React Compiler
+**Batch Size** — higher values increase speed but also increase memory usage.  
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+**Smart Patterns / Dictionary Attack** — optional modes to improve efficiency.  
 
-Note: This will impact Vite dev & build performances.
+**Start Recovery** — begins the cracking process.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Open the website: **https://VaheeMand.github.io/PasswordBruter**  
+   **OR** download the `bundle.html` file from the latest **Releases** tab and open it in any browser.
+2. Configure the hash and parameters.
+3. Start the recovery process and wait for completion.
+
+## Build Instructions
+
+1. Install npm: https://nodejs.org  
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/VaheeMand/PasswordBruter.git
+   cd PasswordBruter
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Build the project:
+   ```bash
+   npm run build
+   ```
+5. The output files will be located in the `dist/` directory.
