@@ -21,7 +21,7 @@ Input field to specify the hash you want to recover.
 
 ## Usage
 
-1. Open the website: **https://VaheeMand.github.io/PasswordBruter**  
+1. Open the website: **https://oxqux.github.io/PasswordBruter**  
    **OR** download the `bundle.html` file from the latest **Releases** tab and open it in any browser.
 2. Configure the hash and parameters.
 3. Start the recovery process and wait for completion.
@@ -31,7 +31,7 @@ Input field to specify the hash you want to recover.
 1. Install npm: https://nodejs.org  
 2. Clone the repository:
    ```bash
-   git clone https://github.com/VaheeMand/PasswordBruter.git
+   git clone https://github.com/oxqux/PasswordBruter.git
    cd PasswordBruter
    ```
 3. Install dependencies:
