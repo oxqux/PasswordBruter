@@ -21,7 +21,7 @@ Input field to specify the hash you want to recover.
 
 ## Usage
 
-1. Open the website: **https://oxqux.github.io/PasswordBruter**
+1. Open the website: **https://oxqux.github.io/PasswordBruter** (Old version on js brute force)
 2. Configure the hash and parameters.
 3. Start the recovery process and wait for completion.
 
