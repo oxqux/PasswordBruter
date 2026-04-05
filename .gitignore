@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 
-tohtml
+public/bruteforce.js
+public/bruteforce.wasm
 
 # Editor directories and files
 .vscode/*

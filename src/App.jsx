@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import ParametersPanel from './components/ParametersPanel.jsx'
 import ProgressMonitor from './components/ProgressMonitor.jsx'
 import ResultDisplay from './components/ResultDisplay.jsx'
-import { bruteDictionary, bruteAlphabet } from './utils/bruteForcers.js'
+import { bruteDictionary, bruteAlphabet } from './utils/bruteForcerWasm.js'
 import './App.css'
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
     useSpecial: false,
     useDictionary: false,
     usePatterns: true,
-    batchSize: 10000
+    batchSize: 200000
   })
   
   const cancelRef = useRef(false)

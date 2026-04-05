@@ -90,7 +90,6 @@ function ParametersPanel({ params, setParams, onFileChange, disabled }) {
         </div>
       </div>
 
-      {/* Добавляем поле для Batch Size */}
       <div className="batch-size-control">
         <div className="input-group">
           <label>Batch Size</label>
@@ -100,7 +99,7 @@ function ParametersPanel({ params, setParams, onFileChange, disabled }) {
             value={params.batchSize}
             onChange={handleParamChange}
             min="1000"
-            max="100000"
+            max="1000000"
             step="1000"
             disabled={disabled}
           />
